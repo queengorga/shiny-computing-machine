@@ -1,1 +1,3 @@
-print("Yeah Python!")
+greeting = "Hola! Marhaba! Mabuhay! Bienvenue!"
+
+print(greeting)
