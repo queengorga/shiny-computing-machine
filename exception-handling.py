@@ -1,4 +1,5 @@
-def divide(a,b):
-    return a/b
+def divide(a, b):
+    try:
+        return a/b
 
 print(divide(1,2))
