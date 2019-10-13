@@ -4,4 +4,4 @@ def divide(a, b):
     except:
         return "Zero division is meaningless"
 
-print(divide(1,2))
+print(divide(1,0))
