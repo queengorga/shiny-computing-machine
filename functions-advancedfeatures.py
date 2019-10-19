@@ -1,5 +1,5 @@
-def minutes_to_hours(minutes, seconds):
+def minutes_to_hours(seconds, minutes=70):
     hours = minutes / 60 + seconds / 3600
     return hours
 
-print(minutes_to_hours(70, 300))
+print(minutes_to_hours(70))
