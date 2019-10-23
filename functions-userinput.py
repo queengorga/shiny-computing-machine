@@ -1,5 +1,3 @@
-def minutes_to_hours(seconds, minutes=70):
-    hours = minutes / 60 + seconds / 3600
-    print(hours)
-
-print(type(minutes_to_hours(300, 200)))
+age = input("Enter your age: ")
+new_age = float(age) + 50
+print(new_age)
