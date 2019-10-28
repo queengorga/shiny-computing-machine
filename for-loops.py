@@ -1,3 +1,4 @@
-emails = ['bea@dogmail.com', 'beaarwen@dogmail.com', 'bentley@dogmail.com']
-for email in emails:
-    print(email)
+emails = ['bea@dogmail.com', 'beaarwen@dogmail.com', 'bentley@doggomail.com']
+for item in emails:
+    if 'dogmail' in item:
+        print(item)
