@@ -1,11 +1,15 @@
+import datetime
+
 r"""   
 This script creates an empty file.
 """
 
-filename = "sample.txt"
+filename=datetime.datetime.now()
 
 #Create empty file
-def create_file()
+def create_file():
     """This script creates an empty file."""
-    with open(filename, "w") as file:
-        file.write("") #Writing empty string
+    with open(filename.strftime("%Y-%m-%d-%H, %M"), "w") as file:
+        file.write("")  #Writing empty string
+        
+create_file()
