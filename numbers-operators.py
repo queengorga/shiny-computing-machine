@@ -1,3 +1,6 @@
-20 - 10 / 5 * 3 ** 2
-(20 - 10) / (5 * 3 ** 2)
-(20 - 10) / (5 * 3) ** 2
+import json 
+
+data = json.load(open("data.json"))
+
+def translate(word):
+    return data(word)
