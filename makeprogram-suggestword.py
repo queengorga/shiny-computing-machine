@@ -13,4 +13,4 @@ word = input("Enter the word: ")
 
 print(translate(word))
 
-# SequenceMatcher(None, "rainn", "rain").ratio()
+# get_close_matches("rainn", data.keys())
