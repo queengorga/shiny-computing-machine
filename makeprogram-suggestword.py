@@ -13,4 +13,4 @@ word = input("Enter the word: ")
 
 print(translate(word))
 
-# get_close_matches("rainn", data.keys())
+# get_close_matches("themandalorian", data.keys(), cutoff=0.5)
